@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: c2361322185a9a14bb5d5a607f8f2d00
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - smallAsteroid: {fileID: 1018827894430336, guid: 6db84e3bf4384e34eaba3bf2370b7f90,
+      type: 2}
+  - a1: {fileID: 21300004, guid: 1126adc4ec96aad438dfbf101c18276f, type: 3}
+  - a2: {fileID: 21300092, guid: 1126adc4ec96aad438dfbf101c18276f, type: 3}
+  - a3: {fileID: 21300114, guid: 1126adc4ec96aad438dfbf101c18276f, type: 3}
+  - a4: {fileID: 21300224, guid: 1126adc4ec96aad438dfbf101c18276f, type: 3}
+  - a5: {fileID: 21300070, guid: 1126adc4ec96aad438dfbf101c18276f, type: 3}
+  - sa1: {fileID: 21300002, guid: 1126adc4ec96aad438dfbf101c18276f, type: 3}
+  - sa2: {fileID: 21300090, guid: 1126adc4ec96aad438dfbf101c18276f, type: 3}
+  - sa3: {fileID: 21300112, guid: 1126adc4ec96aad438dfbf101c18276f, type: 3}
+  - sa4: {fileID: 21300222, guid: 1126adc4ec96aad438dfbf101c18276f, type: 3}
+  - sa5: {fileID: 21300068, guid: 1126adc4ec96aad438dfbf101c18276f, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
