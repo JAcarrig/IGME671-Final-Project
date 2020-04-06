@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{67c97a0d-c04f-4299-a0de-520b305897a8}">
+		<property name="assetPath">
+			<value>128229__kafokafo__laser.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>13.897142857142857</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f626f34d-1d8b-41cd-82d9-410d1b98094b}</destination>
+		</relationship>
+	</object>
+</objects>

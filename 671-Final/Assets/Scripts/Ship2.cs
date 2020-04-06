@@ -18,6 +18,9 @@ public class Ship2 : MonoBehaviour {
     public float speed;
     public float maxSpeed = 2;
 
+    //2020-sound properties
+    private FMODUnity.StudioEventEmitter[] emitters;
+
 	// Use this for initialization
 	void Start () {
         direction = new Vector3(0, 1);
@@ -26,12 +29,14 @@ public class Ship2 : MonoBehaviour {
         Dirlist = new Dictionary<GameObject, Vector3>();
         beamlist = new List<GameObject>();
         points = GameObject.Find("GameManager");
+
+        emitters = GetComponents<FMODUnity.StudioEventEmitter>();
     }
 	
 	// Update is called once per frame
 	void Update () {
-        
 
+        doSound();
         CheckInputs();
         Wrap();
         Exit();
@@ -43,6 +48,7 @@ public class Ship2 : MonoBehaviour {
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             direction = Quaternion.Euler(0, 0, 1f) * direction;
+            
         }
         if (Input.GetKey(KeyCode.RightArrow))
         {
@@ -113,6 +119,19 @@ public class Ship2 : MonoBehaviour {
     }
     #endregion
 
+    void doSound()
+    {
+        if(Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            //SendMessage("Play");
+            emitters[0].Play();
+        }
+        else if(Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow))
+        {
+            //SendMessage("Stop");
+            emitters[0].Stop();
+        }
+    }
 
     #region weapons
     /// <summary>

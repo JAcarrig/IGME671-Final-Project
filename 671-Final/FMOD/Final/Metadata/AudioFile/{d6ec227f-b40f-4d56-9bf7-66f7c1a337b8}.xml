@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{d6ec227f-b40f-4d56-9bf7-66f7c1a337b8}">
+		<property name="assetPath">
+			<value>251229__debsound__spaceship-interface-01.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.2185416666666669</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f626f34d-1d8b-41cd-82d9-410d1b98094b}</destination>
+		</relationship>
+	</object>
+</objects>

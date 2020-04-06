@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{18f8e2b2-43df-489c-bcaf-6f88febcb93b}">
+		<property name="assetPath">
+			<value>336023__adamgryu__rocks.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>6.6915624999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f626f34d-1d8b-41cd-82d9-410d1b98094b}</destination>
+		</relationship>
+	</object>
+</objects>

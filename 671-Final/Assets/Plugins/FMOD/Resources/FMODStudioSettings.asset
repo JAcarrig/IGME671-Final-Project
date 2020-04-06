@@ -79,6 +79,10 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
+  - Ambience
+  - Asteroids
+  - Player
   - Testing
+  - UI
   BanksToLoad: []
   LiveUpdatePort: 9264
