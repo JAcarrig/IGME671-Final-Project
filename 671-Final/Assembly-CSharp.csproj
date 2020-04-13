@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\AsteroidCollider.cs" />
     <Compile Include="Assets\Scripts\AsteroidSpawner.cs" />
     <Compile Include="Assets\Scripts\CollisionDetector.cs" />
+    <Compile Include="Assets\Scripts\FMOD_TEST.cs" />
     <Compile Include="Assets\Scripts\Homing.cs" />
     <Compile Include="Assets\Scripts\Scores.cs" />
     <Compile Include="Assets\Scripts\Ship2.cs" />

@@ -63,6 +63,7 @@ public class Scores : MonoBehaviour {
     {
         if(Time.fixedTime - prevTime >= DELAY)
         {
+            ship.GetComponent<Ship2>().emitters[2].Play();
             lives--;
             prevTime = Time.fixedTime;
             if (lives == 2)

@@ -18,8 +18,18 @@ public class Ship2 : MonoBehaviour {
     public float speed;
     public float maxSpeed = 2;
 
+    private FMOD.Studio.EventInstance move;
+
+    [FMODUnity.EventRef]
+    public string fmodEvent;
+
+    //[SerializeField]
+    //[Range(0f, 1f)]
+    //private float FMspeed;
+
+
     //2020-sound properties
-    private FMODUnity.StudioEventEmitter[] emitters;
+    public FMODUnity.StudioEventEmitter[] emitters;
 
 	// Use this for initialization
 	void Start () {
@@ -29,8 +39,11 @@ public class Ship2 : MonoBehaviour {
         Dirlist = new Dictionary<GameObject, Vector3>();
         beamlist = new List<GameObject>();
         points = GameObject.Find("GameManager");
-
+        //2020 sound stuff
         emitters = GetComponents<FMODUnity.StudioEventEmitter>();
+
+        move = FMODUnity.RuntimeManager.CreateInstance(fmodEvent);
+        move.start();
     }
 	
 	// Update is called once per frame
@@ -119,19 +132,47 @@ public class Ship2 : MonoBehaviour {
     }
     #endregion
 
+    #region sound
+
     void doSound()
     {
-        if(Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow))
+        //movement
+        float FMspeed = (speed * 1) / .1f;
+             
+        move.setParameterByName("speed", FMspeed);
+        //big laser
+        if (Input.GetKeyDown(KeyCode.X) /*&& points.GetComponent<Scores>().score >= 40*/)
         {
-            //SendMessage("Play");
+            emitters[1].Play();
+        }
+        else if (Input.GetKeyUp(KeyCode.X))
+        {
+            emitters[1].Stop();
+        }
+        //rotate
+        if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow))
+        {  
             emitters[0].Play();
         }
         else if(Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow))
         {
-            //SendMessage("Stop");
             emitters[0].Stop();
         }
+        //move forward/back
+        if(Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            emitters[4].Play();
+        }
+        else if (Input.GetKeyUp(KeyCode.UpArrow) || Input.GetKeyUp(KeyCode.DownArrow))
+        {
+
+        }
+
+
+
     }
+
+    #endregion
 
     #region weapons
     /// <summary>
@@ -143,6 +184,8 @@ public class Ship2 : MonoBehaviour {
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            emitters[3].Play();
+
             GameObject newBullet = Instantiate(bullet);
 
             newBullet.transform.position = gameObject.transform.position;
@@ -187,7 +230,7 @@ public class Ship2 : MonoBehaviour {
         Vector3 reverse = /*Quaternion.Euler(0, 0, 270) **/ direction;
 
         Debug.Log(points);
-        if (Input.GetKeyDown(KeyCode.C) == true && points.GetComponent<Scores>().score >= 500)
+        if (Input.GetKeyDown(KeyCode.C) == true /*&& points.GetComponent<Scores>().score >= 500*/)
         {
             points.GetComponent<Scores>().score -= 500;//500
             for (int i = 0; i < 6; i++)
@@ -207,6 +250,7 @@ public class Ship2 : MonoBehaviour {
                 newMissle.transform.rotation = Quaternion.Euler(0, 0, mAngle);
             }
         }
+        
     }
     /// <summary>
     /// Ship's Ultimate laser weapon
@@ -218,10 +262,19 @@ public class Ship2 : MonoBehaviour {
         bool beamText = gameObject.GetComponentInChildren<SpriteRenderer>().enabled;
         
 
-        if (Input.GetKey(KeyCode.X) == true && points.GetComponent<Scores>().score >= 40)
+        if (Input.GetKey(KeyCode.X) == true /*&& points.GetComponent<Scores>().score >= 40*/)
         {
             //max length of viewport is 11
             beamText = true;
+            
+
+
+                
+
+
+                
+
+            
 
             points.GetComponent<Scores>().score -= 40;//40
 
@@ -248,6 +301,7 @@ public class Ship2 : MonoBehaviour {
         }
         else
         {
+            
             beamText = false;
             if (beamlist.Count > 0)
             {
