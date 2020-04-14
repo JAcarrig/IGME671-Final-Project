@@ -16,8 +16,19 @@ public class Homing : MonoBehaviour {
     private GameObject[] targetArray;
     private GameObject manager;
 
-	// Use this for initialization
-	void Start () {
+    
+
+    [FMODUnity.EventRef]
+    public string Fly;
+
+
+    //private void Awake()
+    //{
+    //    FMODUnity.RuntimeManager.PlayOneShot(Fly);
+    //}
+
+    // Use this for initialization
+    void Start () {
         prevtime = Time.fixedTime;
 
         direction = new Vector3(0, 1);
@@ -26,6 +37,8 @@ public class Homing : MonoBehaviour {
         target = targetArray[Random.Range(0, targetArray.Length)];
 
         manager = GameObject.Find("GameManager");
+
+        
     }
 	
 	// Update is called once per frame

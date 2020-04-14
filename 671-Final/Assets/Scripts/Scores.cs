@@ -49,6 +49,8 @@ public class Scores : MonoBehaviour {
 
         if (lives <= 0)
         {
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Player/die");
+
             Debug.Log("Loading");
 
             SceneManager.LoadScene("GameOver");

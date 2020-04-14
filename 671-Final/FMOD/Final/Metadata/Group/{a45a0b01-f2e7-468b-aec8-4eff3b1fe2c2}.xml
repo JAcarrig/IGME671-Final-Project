@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{a45a0b01-f2e7-468b-aec8-4eff3b1fe2c2}">
+		<property name="name">
+			<value>Asteroids</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{18c73561-bdb5-4460-8a9d-67be50bcf916}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{49a13e3e-2d1c-4e4d-98a6-b9294aef86e8}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{343e65eb-2be6-4fdb-a859-76538d62923e}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{18c73561-bdb5-4460-8a9d-67be50bcf916}">
+		<relationship name="effects">
+			<destination>{52c3542c-5010-43c5-8898-448f9c7f323b}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{49a13e3e-2d1c-4e4d-98a6-b9294aef86e8}" />
+	<object class="MixerBusFader" id="{52c3542c-5010-43c5-8898-448f9c7f323b}" />
+</objects>

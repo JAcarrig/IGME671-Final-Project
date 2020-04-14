@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{63c928ba-ab7c-4b85-8487-dc55ffeb0742}">
+		<property name="assetPath">
+			<value>missles-003.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.0778458049886623</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f626f34d-1d8b-41cd-82d9-410d1b98094b}</destination>
+		</relationship>
+	</object>
+</objects>

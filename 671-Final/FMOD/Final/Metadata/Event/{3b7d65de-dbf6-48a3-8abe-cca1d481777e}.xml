@@ -56,7 +56,7 @@
 			<destination>{b28f8bc2-52b4-40cc-bc6d-2d461fa7f609}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{343e65eb-2be6-4fdb-a859-76538d62923e}</destination>
+			<destination>{87cb8009-b96d-43e8-bdff-da4e0289fab4}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{4c0d4a98-80b5-4f47-9fc0-98ccad6fd40c}" />
@@ -130,9 +130,6 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{7680c517-16d6-44f0-97e4-522b4cfa40d4}">
-		<property name="start">
-			<value>0.088195612673093282</value>
-		</property>
 		<property name="length">
 			<value>7</value>
 		</property>
@@ -267,7 +264,7 @@
 	</object>
 	<object class="AutomationPoint" id="{cb043369-3920-4567-bd83-3f87f7a40cbc}">
 		<property name="position">
-			<value>7.0881956126730934</value>
+			<value>7</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -295,7 +292,7 @@
 	</object>
 	<object class="AutomationPoint" id="{353811f4-909d-4e98-882f-17f701f2600c}">
 		<property name="position">
-			<value>7.0881956126730934</value>
+			<value>7</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -336,7 +333,7 @@
 	</object>
 	<object class="AutomationPoint" id="{8d5aff35-4598-4154-bc36-ca2b9f0c3702}">
 		<property name="position">
-			<value>1</value>
+			<value>0.40000000000000002</value>
 		</property>
 		<property name="value">
 			<value>8</value>

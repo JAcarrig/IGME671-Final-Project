@@ -822,7 +822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4e73dc7bb27d5f4f90160191d7bff38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fmodEvent: event:/Player/move
+  fmodEvent: event:/Player/missleslaunch
   speed: 0
 --- !u!1001 &1154418392
 PrefabInstance:
@@ -1067,6 +1067,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Missle
       objectReference: {fileID: 0}
+    - target: {fileID: 1530119501960612, guid: 91b8843effe34164384b6a28fceb0af6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4002944796070384, guid: 91b8843effe34164384b6a28fceb0af6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.65
@@ -1112,6 +1116,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114921479268729844, guid: 91b8843effe34164384b6a28fceb0af6,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114921479268729844, guid: 91b8843effe34164384b6a28fceb0af6,
+        type: 3}
+      propertyPath: Fly
+      value: event:/Player/misslesfly
+      objectReference: {fileID: 0}
+    - target: {fileID: 286523405065274418, guid: 91b8843effe34164384b6a28fceb0af6,
         type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -1256,6 +1270,31 @@ PrefabInstance:
         type: 3}
       propertyPath: fmodEvent
       value: event:/Player/move
+      objectReference: {fileID: 0}
+    - target: {fileID: 114909494574228452, guid: 1f4b2cbf96d0f4246bd403005ea3513a,
+        type: 3}
+      propertyPath: Move
+      value: event:/Player/move
+      objectReference: {fileID: 0}
+    - target: {fileID: 114909494574228452, guid: 1f4b2cbf96d0f4246bd403005ea3513a,
+        type: 3}
+      propertyPath: Launch
+      value: event:/Player/missleslaunch
+      objectReference: {fileID: 0}
+    - target: {fileID: 114909494574228452, guid: 1f4b2cbf96d0f4246bd403005ea3513a,
+        type: 3}
+      propertyPath: Rotate
+      value: event:/Player/rotate
+      objectReference: {fileID: 0}
+    - target: {fileID: 114909494574228452, guid: 1f4b2cbf96d0f4246bd403005ea3513a,
+        type: 3}
+      propertyPath: BasicLaser
+      value: event:/Player/shoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 114909494574228452, guid: 1f4b2cbf96d0f4246bd403005ea3513a,
+        type: 3}
+      propertyPath: BigLaser
+      value: event:/Player/laser
       objectReference: {fileID: 0}
     - target: {fileID: 212503857502784008, guid: 1f4b2cbf96d0f4246bd403005ea3513a,
         type: 3}

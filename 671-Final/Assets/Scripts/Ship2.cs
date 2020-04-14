@@ -18,21 +18,24 @@ public class Ship2 : MonoBehaviour {
     public float speed;
     public float maxSpeed = 2;
 
-    private FMOD.Studio.EventInstance move;
-
-    [FMODUnity.EventRef]
-    public string fmodEvent;
-
-    //[SerializeField]
-    //[Range(0f, 1f)]
-    //private float FMspeed;
+    
 
 
     //2020-sound properties
     public FMODUnity.StudioEventEmitter[] emitters;
 
-	// Use this for initialization
-	void Start () {
+    private FMOD.Studio.EventInstance rotate, bigLaser, move, shoot;
+
+    [FMODUnity.EventRef]
+    public string Rotate, BasicLaser, BigLaser, Move, Launch;
+
+
+    //[SerializeField]
+    //[Range(0f, 1f)]
+    //private float FMspeed;
+
+    // Use this for initialization
+    void Start () {
         direction = new Vector3(0, 1);
 
         bulletList = new List<GameObject>();
@@ -42,7 +45,11 @@ public class Ship2 : MonoBehaviour {
         //2020 sound stuff
         emitters = GetComponents<FMODUnity.StudioEventEmitter>();
 
-        move = FMODUnity.RuntimeManager.CreateInstance(fmodEvent);
+        //launch = FMODUnity.RuntimeManager.CreateInstance(Launch);
+        rotate = FMODUnity.RuntimeManager.CreateInstance(Rotate);
+        shoot = FMODUnity.RuntimeManager.CreateInstance(BasicLaser);
+        bigLaser = FMODUnity.RuntimeManager.CreateInstance(BigLaser);
+        move = FMODUnity.RuntimeManager.CreateInstance(Move);
         move.start();
     }
 	
@@ -143,20 +150,25 @@ public class Ship2 : MonoBehaviour {
         //big laser
         if (Input.GetKeyDown(KeyCode.X) /*&& points.GetComponent<Scores>().score >= 40*/)
         {
-            emitters[1].Play();
+            //emitters[1].Play();
+            bigLaser.start();
         }
         else if (Input.GetKeyUp(KeyCode.X))
         {
-            emitters[1].Stop();
+            //emitters[1].Stop();
+            bigLaser.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
         }
         //rotate
         if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow))
         {  
-            emitters[0].Play();
+            
+            //emitters[0].Play();
+            rotate.start();
         }
         else if(Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow))
         {
-            emitters[0].Stop();
+            //emitters[0].Stop();
+            rotate.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
         }
         //move forward/back
         if(Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.DownArrow))
@@ -184,7 +196,7 @@ public class Ship2 : MonoBehaviour {
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            emitters[3].Play();
+            FMODUnity.RuntimeManager.PlayOneShot(BasicLaser);
 
             GameObject newBullet = Instantiate(bullet);
 
@@ -229,12 +241,14 @@ public class Ship2 : MonoBehaviour {
     {
         Vector3 reverse = /*Quaternion.Euler(0, 0, 270) **/ direction;
 
-        Debug.Log(points);
+        //Debug.Log(points);
         if (Input.GetKeyDown(KeyCode.C) == true /*&& points.GetComponent<Scores>().score >= 500*/)
         {
             points.GetComponent<Scores>().score -= 500;//500
             for (int i = 0; i < 6; i++)
             {
+                //launch.start();
+                StartCoroutine(player());
                 GameObject newMissle = Instantiate(missle);
 
 
@@ -332,5 +346,22 @@ public class Ship2 : MonoBehaviour {
         {
             Application.Quit();
         }
-    } 
+    }
+    /// <summary>
+    /// missle launcher coroutine
+    /// </summary>
+    /// <returns></returns>
+    IEnumerator player()
+    {
+        for (int i = 0; i < 6; i++)
+        {
+            Debug.Log("player start");
+            yield return new WaitForSeconds(.08f);
+
+            FMODUnity.RuntimeManager.PlayOneShot(Launch);
+            //FMOD.Studio.EventInstance launch;
+            //launch = FMODUnity.RuntimeManager.CreateInstance(Launch);
+            //launch.start();
+        }
+    }
 }

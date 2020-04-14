@@ -10,3 +10,6 @@
 - https://freesound.org/people/adamgryu/sounds/336023/ - rocks sound
 - https://freesound.org/people/SoundFX.studio/sounds/456272/ - explosion
 - https://freesound.org/people/ivolipa/sounds/344949/ - big laser sound
+- https://freesound.org/people/KieranKeegan/sounds/436051/
+- https://freesound.org/people/soularitysound/sounds/366109/
+- https://freesound.org/people/Iwiploppenisse/sounds/156031/
