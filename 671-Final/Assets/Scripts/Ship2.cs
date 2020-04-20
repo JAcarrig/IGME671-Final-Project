@@ -51,13 +51,18 @@ public class Ship2 : MonoBehaviour {
         bigLaser = FMODUnity.RuntimeManager.CreateInstance(BigLaser);
         move = FMODUnity.RuntimeManager.CreateInstance(Move);
         move.start();
+        FMODUnity.RuntimeManager.CreateInstance("event:/Ambience/ambience").start();
     }
-	
-	// Update is called once per frame
-	void Update () {
 
-        doSound();
-        CheckInputs();
+    // Update is called once per frame
+    void Update()
+    {
+
+        if (VarTransfer.Paused == false)
+        {
+            doSound();
+            CheckInputs();
+        }
         Wrap();
         Exit();
     }
@@ -67,21 +72,21 @@ public class Ship2 : MonoBehaviour {
     {
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            direction = Quaternion.Euler(0, 0, 1f) * direction;
+            direction = Quaternion.Euler(0, 0, 3f) * direction;
             
         }
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            direction = Quaternion.Euler(0, 0, -1f) * direction;
+            direction = Quaternion.Euler(0, 0, -3f) * direction;
         }
         if (Input.GetKey(KeyCode.UpArrow))
         {
             //MoveForward();
-            speed += .001f;
+            speed += .005f;
         }
         else if(speed >= 0)
         {
-            speed -= .001f;
+            speed -= .005f;
         }
 
         if(speed < 0)
@@ -211,7 +216,7 @@ public class Ship2 : MonoBehaviour {
             Dirlist.Add(newBullet, direction);
         }
 
-        if (bulletList.Count > 0)
+        if (bulletList.Count > 0 && VarTransfer.Paused == false)
         {
             foreach (GameObject element in bulletList)
             {

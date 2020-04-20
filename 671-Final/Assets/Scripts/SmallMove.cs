@@ -14,6 +14,11 @@ public class SmallMove : MonoBehaviour {
     GameObject Ship;
     GameObject manager;
 
+    private FMOD.Studio.EventInstance explode;
+
+    [FMODUnity.EventRef]
+    public string Explode;
+
     // Use this for initialization
     void Start () {
         manager = GameObject.Find("GameManager");
@@ -23,12 +28,18 @@ public class SmallMove : MonoBehaviour {
 
         angle = angle * Mathf.Deg2Rad;
 		direction = new Vector3(Mathf.Cos(angle), Mathf.Sin(angle), 0);
+
+        explode = FMODUnity.RuntimeManager.CreateInstance(Explode);
     }
 	
 	// Update is called once per frame
 	void Update () {
-        Movement();
         
+        if (VarTransfer.Paused == false)
+        {
+            Movement();
+        }
+
         if (VarTransfer.Kmode == false)
         {
             BulletCollision();
@@ -71,6 +82,11 @@ public class SmallMove : MonoBehaviour {
 
             if (Vector3.Distance(gameObject.transform.position, element.transform.position) < radius + eRadius)
             {
+                float shipDist = Vector3.Distance(Ship.transform.position, gameObject.transform.position);
+                float tDist = (shipDist * 1) / 20f;
+                explode.setParameterByName("distance", tDist);
+                explode.start();
+
                 manager.GetComponent<Scores>().score += 50;
                 Ship.GetComponent<Ship2>().DestroyBullet(element);
                 Destroy(gameObject);

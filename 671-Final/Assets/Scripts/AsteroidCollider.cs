@@ -14,6 +14,11 @@ public class AsteroidCollider : MonoBehaviour {
     private float angleDeg;
     private int aIndex;
 
+    private FMOD.Studio.EventInstance firstbreak;
+
+    [FMODUnity.EventRef]
+    public string Break;
+
     #region large asteroids
     private Sprite[] bigAsteroids;
     public Sprite a1;
@@ -53,16 +58,25 @@ public class AsteroidCollider : MonoBehaviour {
         direction = new Vector3(Mathf.Cos(angle), Mathf.Sin(angle), 0);
 
         RandSprite();
-	}
+
+        firstbreak = FMODUnity.RuntimeManager.CreateInstance(Break);
+        
+    }
 	
 	// Update is called once per frame
 	void Update () {
-        BulletCollision();
-        ShipCollision();
-        Movement();
-        
-        //Gizmos.DrawSphere(transform.position, radius);
-        //Gizmos.DrawSphere(Ship.transform.position, Ship.GetComponent<SpriteRenderer>().bounds.extents.x);
+
+        if (VarTransfer.Paused == false)
+        {
+            BulletCollision();
+            ShipCollision();
+            if (VarTransfer.Paused == false)
+            {
+                Movement();
+            }
+        }
+
+
     }
     /// <summary>
     /// Detects bullet-asteroid collisions
@@ -91,6 +105,8 @@ public class AsteroidCollider : MonoBehaviour {
 
             if (Vector3.Distance(gameObject.transform.position, element.transform.position) < radius + eRadius + .5f)
             {
+                
+
                 manager.GetComponent<Scores>().score += 20;
                 //Ship.GetComponent<Ship2>().DestroyBullet(element);
                 Destroy(element);
@@ -133,6 +149,12 @@ public class AsteroidCollider : MonoBehaviour {
     /// </summary>
     public void Breakup()
     {
+        float shipDist = Vector3.Distance(Ship.transform.position, gameObject.transform.position);
+        float tDist = (shipDist * 1) / 20f;
+        firstbreak.setParameterByName("distance", tDist);
+       
+        //FMODUnity.RuntimeManager.PlayOneShot(Break);
+        firstbreak.start();
         //create first child
         GameObject active = Instantiate(smallAsteroid);
         active.transform.position = gameObject.transform.position;

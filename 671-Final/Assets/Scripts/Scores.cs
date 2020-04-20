@@ -10,6 +10,8 @@ public class Scores : MonoBehaviour {
     public int score = 0;
     const float DELAY = 1f;
     private float prevTime;
+    private FMOD.Studio.EventInstance alarm;
+
 
     GameObject sb;
     GameObject life;
@@ -27,7 +29,10 @@ public class Scores : MonoBehaviour {
 
         shield1 = GameObject.Find("shield1");
         shield2 = GameObject.Find("shield2");
-	}
+
+        alarm = FMODUnity.RuntimeManager.CreateInstance("event:/Ambience/healthalarm");
+        alarm.start();
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -37,6 +42,7 @@ public class Scores : MonoBehaviour {
 
     void UpdateScoreboard()
     {
+        if(score < 0) { score = 0; }
         sb.GetComponent<Text>().text = "Score: " + score;
         //life.GetComponent<Text>().text = "Lives: " + lives;
 
@@ -49,6 +55,10 @@ public class Scores : MonoBehaviour {
 
         if (lives <= 0)
         {
+
+            FMODUnity.RuntimeManager.GetBus("bus:/SFX").stopAllEvents(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            FMODUnity.RuntimeManager.GetBus("bus:/AMB").stopAllEvents(FMOD.Studio.STOP_MODE.IMMEDIATE);
+
             FMODUnity.RuntimeManager.PlayOneShot("event:/Player/die");
 
             Debug.Log("Loading");
@@ -67,6 +77,7 @@ public class Scores : MonoBehaviour {
         {
             ship.GetComponent<Ship2>().emitters[2].Play();
             lives--;
+            alarm.setParameterByName("health", lives);
             prevTime = Time.fixedTime;
             if (lives == 2)
             {

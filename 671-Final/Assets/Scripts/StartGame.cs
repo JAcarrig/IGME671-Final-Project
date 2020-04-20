@@ -20,6 +20,7 @@ public class StartGame : MonoBehaviour {
     {
         if(Input.GetKeyDown(KeyCode.K) == true)
         {
+            FMODUnity.RuntimeManager.PlayOneShot("event:/UI/switch");
             VarTransfer.Kmode = !VarTransfer.Kmode;
             bool km = VarTransfer.Kmode;
 
@@ -39,6 +40,7 @@ public class StartGame : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            FMODUnity.RuntimeManager.PlayOneShot("event:/UI/select");
             Debug.Log("Loading");
 
             SceneManager.LoadScene("Asteroids");

@@ -45,7 +45,11 @@ public class Homing : MonoBehaviour {
 	void Update () {
 
         //FreeMove();
-        Tracker();
+        if (VarTransfer.Paused == false)
+        {
+            Tracker();
+        }
+        
 
 
         //if (Time.fixedTime - prevtime < .5)
