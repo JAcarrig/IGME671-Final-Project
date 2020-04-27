@@ -29,7 +29,7 @@ public class Ship2 : MonoBehaviour {
     [FMODUnity.EventRef]
     public string Rotate, BasicLaser, BigLaser, Move, Launch;
 
-
+    private bool soundUp = false;
     //[SerializeField]
     //[Range(0f, 1f)]
     //private float FMspeed;
@@ -156,12 +156,14 @@ public class Ship2 : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.X) /*&& points.GetComponent<Scores>().score >= 40*/)
         {
             //emitters[1].Play();
-            bigLaser.start();
+            
+            StartCoroutine(laserDelay());
         }
         else if (Input.GetKeyUp(KeyCode.X))
         {
             //emitters[1].Stop();
             bigLaser.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            soundUp = false;
         }
         //rotate
         if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow))
@@ -281,14 +283,14 @@ public class Ship2 : MonoBehaviour {
         bool beamText = gameObject.GetComponentInChildren<SpriteRenderer>().enabled;
         
 
-        if (Input.GetKey(KeyCode.X) == true /*&& points.GetComponent<Scores>().score >= 40*/)
+        if (Input.GetKey(KeyCode.X) == true && soundUp == true /*&& points.GetComponent<Scores>().score >= 40*/)
         {
             //max length of viewport is 11
             beamText = true;
             
 
 
-                
+               
 
 
                 
@@ -368,5 +370,13 @@ public class Ship2 : MonoBehaviour {
             //launch = FMODUnity.RuntimeManager.CreateInstance(Launch);
             //launch.start();
         }
+    }
+
+    IEnumerator laserDelay()
+    {
+        bigLaser.start();
+        yield return new WaitForSeconds(0.4f);
+        soundUp = true;
+
     }
 }

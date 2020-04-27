@@ -13,7 +13,7 @@ public class AsteroidSpawner : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        //checkAsteroidNum();
+        checkAsteroidNum();
 	}
 
     void SpawnAsteroids(int amount)

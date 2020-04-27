@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{ee60b623-c758-4b3d-8a2c-09349d0a461d}">
+		<property name="assetPath">
+			<value>flopp med underleppa (flanger9).wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.44117913832199546</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f626f34d-1d8b-41cd-82d9-410d1b98094b}</destination>
+		</relationship>
+	</object>
+</objects>

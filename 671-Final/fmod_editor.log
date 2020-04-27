@@ -7,13 +7,192 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Priority: 2, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000001C748805788 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000002D5C4C9EA38 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Priority: 0, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] PlaybackSystem::init                     : done
 [LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Priority: 0, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] Manager::init                            : done.
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] SystemI::createSound                     : filename = FMOD\Final\Build\Desktop/Player.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000002D647BCDE38 : node = 000002D64867D8E0
+[LOG] SystemI::createSound                     : add node to async list : head = 000002D64AB997F8.  list count = 0
+[LOG] SystemI::createSound                     : filename = FMOD\Final\Build\Desktop/Player.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000002D647BCDE38
+[LOG] SystemI::createSound                     : setdata soundi = 000002D647BCD418 : node = 000002D64867DB60
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD\Final\Build\Desktop/Player.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     add node to async list : head = 000002D64AB997F8.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3947264
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 15072
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000002D64867D9F0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='rocketfast', format=2, channels=2, frequency=48000, lengthbytes=100256, lengthpcm=802654, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.928070.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000002D647BCDE38
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000002D647BCD418
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD\Final\Build\Desktop/Player.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3947264
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 15072
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000002D64867DC70
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='156088__survivalbag__electrical-hum-g-slightly-sharp', format=2, channels=2, frequency=48000, lengthbytes=3032608, lengthpcm=12476360, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.062683.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000002D647BCD418
+[LOG] SoundI::getSubSound                      : sound 000002D647BCDE38.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 000002D647BCD418.  Subsound index 0 / 1
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] SystemI::createSound                     : filename = FMOD\Final\Build\Desktop/Player.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000002D5C458CB68 : node = 000002D64867D520
+[LOG] SystemI::createSound                     : add node to async list : head = 000002D64AB997F8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000002D5C458CB68
+[LOG] SystemI::createSound                     : filename = FMOD\Final\Build\Desktop/Player.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD\Final\Build\Desktop/Player.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSound                     :     setdata soundi = 000002D5C4DF58C8 : node = 000002D64867D7A0
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3947264
+[LOG] SystemI::createSound                     :     add node to async list : head = 000002D64AB997F8.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 15072
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000002D64867D630
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='rocketfast', format=2, channels=2, frequency=48000, lengthbytes=100256, lengthpcm=802654, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.928070.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000002D5C458CB68
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000002D5C4DF58C8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD\Final\Build\Desktop/Player.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3947264
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 15072
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000002D64867D8B0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='156088__survivalbag__electrical-hum-g-slightly-sharp', format=2, channels=2, frequency=48000, lengthbytes=3032608, lengthpcm=12476360, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.062683.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000002D5C4DF58C8
+[LOG] SoundI::getSubSound                      : sound 000002D5C458CB68.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 000002D5C4DF58C8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 156088__survivalbag__electrical-hum-g-slightly-sharp (000002D647BCD418)
+[LOG] SoundI::release                          :     156088__survivalbag__electrical-hum-g-slightly-sharp (000002D648635D18)
+[LOG] SoundI::release                          :     156088__survivalbag__electrical-hum-g-slightly-sharp (000002D5C458C658)
+[LOG] SoundI::release                          : rocketfast (000002D647BCDE38)
+[LOG] SoundI::release                          :     rocketfast (000002D648635B78)
+[LOG] SoundI::release                          :     rocketfast (000002D5C458C2F8)
+[LOG] SystemI::createSound                     : filename = FMOD\Final\Build\Desktop/Player.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000002D5C370BEE8 : node = 000002D5EC9DD8E0
+[LOG] SystemI::createSound                     : add node to async list : head = 000002D64AB997F8.  list count = 0
+[LOG] SystemI::createSound                     : filename = FMOD\Final\Build\Desktop/Player.bank : mode 02010082
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000002D5C370BEE8
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD\Final\Build\Desktop/Player.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     setdata soundi = 000002D5C370C3F8 : node = 000002D5EC9DDCA0
+[LOG] SystemI::createSound                     :     add node to async list : head = 000002D64AB997F8.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3947264
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 15072
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000002D5EC9DD9F0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='rocketfast', format=2, channels=2, frequency=48000, lengthbytes=100256, lengthpcm=802654, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.928070.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000002D5C370BEE8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000002D5C370C3F8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD\Final\Build\Desktop/Player.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3947264
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 15072
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000002D5EC9DDDB0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='156088__survivalbag__electrical-hum-g-slightly-sharp', format=2, channels=2, frequency=48000, lengthbytes=3032608, lengthpcm=12476360, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.062683.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000002D5C370C3F8
+[LOG] SoundI::getSubSound                      : sound 000002D5C370BEE8.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 000002D5C370C3F8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : 156088__survivalbag__electrical-hum-g-slightly-sharp (000002D5C4DF58C8)
+[LOG] SoundI::release                          :     156088__survivalbag__electrical-hum-g-slightly-sharp (000002D64846F948)
+[LOG] SoundI::release                          :     156088__survivalbag__electrical-hum-g-slightly-sharp (000002D5C370B9D8)
+[LOG] SoundI::release                          : rocketfast (000002D5C458CB68)
+[LOG] SoundI::release                          :     rocketfast (000002D6484704A8)
+[LOG] SoundI::release                          :     rocketfast (000002D5C4DF5C28)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] SoundI::release                          :  (000002D5C2F94128)
+[LOG] SoundI::release                          :     456272__soundfx-studio__distance-explosion-sound (000002D64846FAE8)
+[LOG] SoundI::release                          :  (000002D5C2F93888)
+[LOG] SoundI::release                          :     478275__joao-janz__alarm-1-1 (000002D64846F7A8)
+[LOG] SoundI::release                          :  (000002D5C2F94B38)
+[LOG] SoundI::release                          :     389511__bbrocer__digital-alarm-loop (000002D6484738A8)
+[LOG] SoundI::release                          :  (000002D5C2F92B98)
+[LOG] SoundI::release                          :     446764__maxx222__rocketthrustmaxx (000002D648472EE8)
+[LOG] SoundI::release                          : 174450__sonicfreak__space-ambience (000002D648360A98)
+[LOG] SoundI::release                          :     174450__sonicfreak__space-ambience (000002D648883CB8)
+[LOG] SoundI::release                          :     174450__sonicfreak__space-ambience (000002D5C4DF6138)
+[LOG] SoundI::release                          : 156088__survivalbag__electrical-hum-g-slightly-sharp (000002D5C370C3F8)
+[LOG] SoundI::release                          :     156088__survivalbag__electrical-hum-g-slightly-sharp (000002D64846D588)
+[LOG] SoundI::release                          :     156088__survivalbag__electrical-hum-g-slightly-sharp (000002D5C370C5A8)
+[LOG] SoundI::release                          : rocketfast (000002D5C370BEE8)
+[LOG] SoundI::release                          :     rocketfast (000002D64846D3E8)
+[LOG] SoundI::release                          :     rocketfast (000002D5C370B828)
+[LOG] SoundI::release                          : 156088__survivalbag__electrical-hum-g-slightly-sharp (000002D648360228)
+[LOG] SoundI::release                          :     156088__survivalbag__electrical-hum-g-slightly-sharp (000002D648883978)
+[LOG] SoundI::release                          :     156088__survivalbag__electrical-hum-g-slightly-sharp (000002D648360DF8)
+[LOG] SoundI::release                          : rocketfast (000002D648361158)
+[LOG] SoundI::release                          :     rocketfast (000002D648884338)
+[LOG] SoundI::release                          :     rocketfast (000002D648360C48)
+[LOG] SoundI::release                          :  (000002D5C2F93FB8)
+[LOG] SoundI::release                          :     ambience effects-003 (000002D648471828)
+[LOG] SoundI::release                          :  (000002D5C2F92E78)
+[LOG] SoundI::release                          :     ambience effects-004 (000002D648473BE8)
+[LOG] SoundI::release                          :  (000002D5C2F93718)
+[LOG] SoundI::release                          :     ambience effects-005 (000002D648473568)
+[LOG] SoundI::release                          :  (000002D5C2F95B08)
+[LOG] SoundI::release                          :     ambience effects-006 (000002D648473228)
+[LOG] SoundI::release                          :  (000002D5C2F95C78)
+[LOG] SoundI::release                          :     ambience effects-001 (000002D648472868)
+[LOG] SoundI::release                          :  (000002D5C2F95F58)
+[LOG] SoundI::release                          :     ambience effects-002 (000002D6484711A8)
+[LOG] SoundI::release                          :  (000002D5C2F93E48)
+[LOG] SoundI::release                          :     4pings (000002D648473D88)
+[LOG] SoundI::release                          :  (000002D5C2F960C8)
+[LOG] SoundI::release                          :     bae6ry_ui-116 (000002D648473088)
+[LOG] SoundI::release                          :  (000002D5C2F95998)
+[LOG] SoundI::release                          :     cdtb80_ui-138 (000002D648471008)
+[LOG] SoundI::release                          :  (000002D5C2F94858)
+[LOG] SoundI::release                          :     main laser (000002D648472D48)
+[LOG] SoundI::release                          :  (000002D5C2F95DE8)
+[LOG] SoundI::release                          :     RCS (000002D648473A48)
+[LOG] SoundI::release                          :  (000002D5C2F935A8)
+[LOG] SoundI::release                          :     missles2-002 (000002D648473708)
+[LOG] SoundI::release                          :  (000002D5C2F92D08)
+[LOG] SoundI::release                          :     missles2-003 (000002D648472A08)
+[LOG] SoundI::release                          :  (000002D5C2F95268)
+[LOG] SoundI::release                          :     missles2-001 (000002D648472BA8)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
@@ -23,10 +202,3 @@
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
-[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
-[LOG] LiveUpdate::release                      : 
-[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
-[LOG] Thread::callback                         : FMOD stream thread finished.
-[LOG] Thread::callback                         : FMOD mixer thread finished.
-[LOG] SystemI::close                           : Closed.

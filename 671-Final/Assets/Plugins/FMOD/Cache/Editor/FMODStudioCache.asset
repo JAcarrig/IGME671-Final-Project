@@ -1,5 +1,57 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9203869103397684472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/UI.bank
+  SubDir: 
+  lastModified: 637233350836201544
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-9201085263175794773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/rotate/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-9159962943871167646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/laser/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-9148082240920645408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35,6 +87,42 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-9035339964636661116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Player.bank
+  SubDir: 
+  lastModified: 637231675257561701
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-9015977490192358467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Testing.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Testing.bank
+  SubDir: 
+  lastModified: 637231652472381064
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-8970269139713999229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52,6 +140,40 @@ MonoBehaviour:
   lastModified: 637229176222540238
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-8956445358940138586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/break/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-8934024397457219078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/break/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
   Exists: 0
 --- !u!114 &-8926633360416668390
 MonoBehaviour:
@@ -122,6 +244,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-8860989932501831443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/laser/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-8804374556618257397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -157,6 +296,23 @@ MonoBehaviour:
   Default: 0
   Exists: 0
 --- !u!114 &-8756784243217865682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/break/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-8738650003539657194
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -245,6 +401,41 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-8672676628844603412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/laser/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-8661519089817043592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637233350835416206
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-8644724183719975271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -277,6 +468,24 @@ MonoBehaviour:
   Path: FMOD/Final/Build/Desktop/Player.bank
   SubDir: 
   lastModified: 637224853596936013
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-8627644644214350756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Player.bank
+  SubDir: 
+  lastModified: 637231674907069081
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -333,6 +542,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-8556743645346920832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637231648779159499
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-8517369915119343703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -351,6 +578,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-8466324617832057062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/healthalarm/health
+  m_EditorClassIdentifier: 
+  Name: health
+  Min: 0
+  Max: 3
+  Default: 3
+  Exists: 0
 --- !u!114 &-8315403145991165059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -366,14 +610,31 @@ MonoBehaviour:
   Path: event:/UI/select
   guid: 1cf5053aa9f6da4698c72f416cb74158
   Banks:
-  - {fileID: -2793431226222563526}
+  - {fileID: 7434461587778638085}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 89
+  Length: 972
+--- !u!114 &-8239215921817275236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/break/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-8228227332076180827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -408,6 +669,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &-8180478180405752396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/healthalarm/health
+  m_EditorClassIdentifier: 
+  Name: health
+  Min: 0
+  Max: 3
+  Default: 3
+  Exists: 0
 --- !u!114 &-8153693581174764870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -423,15 +701,50 @@ MonoBehaviour:
   Path: event:/Player/rotate
   guid: 60d836029358a54c83f450e524817980
   Banks:
-  - {fileID: -2442317788182155020}
+  - {fileID: 4640323934982218668}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -4718727216205211865}
+  - {fileID: 7065242368683411063}
   MinDistance: 0
   MaxDistance: 0
   Length: 999
+--- !u!114 &-8148606366277075851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/rotate/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-8099891083470450350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Testing.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Testing.bank
+  SubDir: 
+  lastModified: 637233350836011490
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-8060959262491252850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -500,6 +813,41 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-7980974588761811846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/healthalarm/health
+  m_EditorClassIdentifier: 
+  Name: health
+  Min: 0
+  Max: 3
+  Default: 3
+  Exists: 1
+--- !u!114 &-7930907812293969843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637231671178101213
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-7922662401760642176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -550,14 +898,14 @@ MonoBehaviour:
   Path: event:/Player/damage
   guid: 14082c47938c5248bccfd9e1d0a473f2
   Banks:
-  - {fileID: -2442317788182155020}
+  - {fileID: 4640323934982218668}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 1300
+  Length: 1100
 --- !u!114 &-7886604876194166958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -571,6 +919,77 @@ MonoBehaviour:
   m_Name: parameter:/move/Speed
   m_EditorClassIdentifier: 
   Name: Speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-7837291256805138494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Player.bank
+  SubDir: 
+  lastModified: 637231743768226069
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-7809655640376806004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Asteroids.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Asteroids.bank
+  SubDir: 
+  lastModified: 637231719866639015
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-7807688516590897289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637231674906668997
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-7709523164415152573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/laser/time
+  m_EditorClassIdentifier: 
+  Name: time
   Min: 0
   Max: 1
   Default: 0
@@ -611,6 +1030,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-7616419849658385484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/laser/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-7585971599678521192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -629,6 +1065,41 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-7585378560180409184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/laser/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &-7569416418843748525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Asteroids.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Asteroids.bank
+  SubDir: 
+  lastModified: 637231652471560877
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-7527893343790492082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -647,6 +1118,58 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-7526712428491134508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/move/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-7519746014822109642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/move/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-7502091334912584162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Player.bank
+  SubDir: 
+  lastModified: 637231625942238782
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-7470108653637200905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -664,6 +1187,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-7461233924166921888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/move/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-7454763845157598741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -697,15 +1237,51 @@ MonoBehaviour:
   Path: event:/Player/move
   guid: 5ac6c86687b2a947a9533af0e688eeac
   Banks:
-  - {fileID: -2442317788182155020}
+  - {fileID: 4640323934982218668}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -5784368405235936244}
+  - {fileID: -118848962882449380}
   MinDistance: 0
   MaxDistance: 0
-  Length: 545361
+  Length: 805361
+--- !u!114 &-7433396035850931237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/UI.bank
+  SubDir: 
+  lastModified: 637231738783217391
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-7401587159009384841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/UI.bank
+  SubDir: 
+  lastModified: 637231668119452246
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-7360821712375791774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -721,6 +1297,41 @@ MonoBehaviour:
   Path: FMOD/Final/Build/Desktop/Testing.bank
   SubDir: 
   lastModified: 637224852587629832
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-7294939536131191650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/explode/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-7244726220837919009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Player.bank
+  SubDir: 
+  lastModified: 637233350835821448
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -742,6 +1353,42 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-7238553160859751428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637231738782427215
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-7231938882575059152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637231717636228636
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-7218834680228181124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -757,8 +1404,8 @@ MonoBehaviour:
   Path: event:/test1-ambience
   guid: 8c9c20e5e886b84f86a33732b0eb8f32
   Banks:
-  - {fileID: 4930311078166670885}
-  - {fileID: -5057758021503935101}
+  - {fileID: 4430786493392719003}
+  - {fileID: 8020549540010692400}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -766,6 +1413,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 158092
+--- !u!114 &-7208432676935159485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/healthalarm/health
+  m_EditorClassIdentifier: 
+  Name: health
+  Min: 0
+  Max: 3
+  Default: 3
+  Exists: 0
 --- !u!114 &-7172038914257015406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -817,6 +1481,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-7136085631452944776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/healthalarm/health
+  m_EditorClassIdentifier: 
+  Name: health
+  Min: 0
+  Max: 3
+  Default: 3
+  Exists: 0
 --- !u!114 &-7131560348862377591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -853,6 +1534,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-7067369388107580386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/UI.bank
+  SubDir: 
+  lastModified: 637231674907449171
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-6983558585734360801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -886,15 +1585,15 @@ MonoBehaviour:
   Path: event:/Asteroid/break
   guid: 0fa4a4e31909ac49bf38f3923da69b87
   Banks:
-  - {fileID: 4130743479379995468}
+  - {fileID: 7038224535300609714}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: -2462220985619540162}
+  - {fileID: -5725142255852484123}
   MinDistance: 0
   MaxDistance: 0
-  Length: 1900
+  Length: 660
 --- !u!114 &-6959042054516497673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -951,6 +1650,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 89
+--- !u!114 &-6875304566418145846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/break/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-6834945777283840467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1004,6 +1720,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-6764099982316661930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/laser/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-6763914783803059992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1037,6 +1770,59 @@ MonoBehaviour:
   Path: FMOD/Final/Build/Desktop/UI.bank
   SubDir: 
   lastModified: 637223216652479348
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-6735284604608829960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Testing.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Testing.bank
+  SubDir: 
+  lastModified: 637231717636808909
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-6613737472967149442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/rotate/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-6604116335901944961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Testing.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Testing.bank
+  SubDir: 
+  lastModified: 637231648780139729
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -1200,6 +1986,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-6302335328516796794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/break/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-6282657858739055098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1234,6 +2037,24 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-6254264470975010473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Testing.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Testing.bank
+  SubDir: 
+  lastModified: 637233401126945702
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-6237066389519370127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1251,6 +2072,42 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &-6203141622392859860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/UI.bank
+  SubDir: 
+  lastModified: 637231648780439792
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-6178555507547556007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Asteroids.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Asteroids.bank
+  SubDir: 
+  lastModified: 637231614174109806
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-6170276248674317737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1273,6 +2130,40 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 155907
+--- !u!114 &-6133897996471649748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/move/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-6122614248110958600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/break/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-6098328414643065645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1305,7 +2196,7 @@ MonoBehaviour:
   Path: event:/UI/onpause
   guid: 94ac0f637585524ea61a6fcf2cbd4c2f
   Banks:
-  - {fileID: -2793431226222563526}
+  - {fileID: 7434461587778638085}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1313,7 +2204,60 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 483
+--- !u!114 &-6002447321525595753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Player.bank
+  SubDir: 
+  lastModified: 637231743533428054
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-5977885183990093903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/rotate/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-5953782154206407988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637231675256761497
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-5895837732668810097
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1347,6 +2291,24 @@ MonoBehaviour:
   Max: 3
   Default: 3
   Exists: 0
+--- !u!114 &-5889618538771959758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/UI.bank
+  SubDir: 
+  lastModified: 637233352022994830
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-5889031837686343460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1382,6 +2344,23 @@ MonoBehaviour:
   lastModified: 637224805030971800
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-5856466124668621473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/laser/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
   Exists: 0
 --- !u!114 &-5838400164724634571
 MonoBehaviour:
@@ -1471,7 +2450,41 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 0
+--- !u!114 &-5725142255852484123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/break/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
   Exists: 1
+--- !u!114 &-5685863945849882761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/laser/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-5667716656760773608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1490,6 +2503,40 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-5660751906651601894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/laser/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &-5654973814010378571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/move/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-5620021030507855669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1505,6 +2552,77 @@ MonoBehaviour:
   Path: FMOD/Final/Build/Desktop/Ambience.bank
   SubDir: 
   lastModified: 637229186130728190
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-5566519744514993529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Asteroids.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Asteroids.bank
+  SubDir: 
+  lastModified: 637231738782217175
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-5565530247442566164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Testing.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Testing.bank
+  SubDir: 
+  lastModified: 637231717314144484
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-5545354660306460720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/break/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-5542654111667716144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Testing.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Testing.bank
+  SubDir: 
+  lastModified: 637231744124259814
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -1526,6 +2644,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-5523024477766632549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/UI.bank
+  SubDir: 
+  lastModified: 637231614180861488
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-5520097548392865177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1543,6 +2679,41 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &-5519205998842926146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637231744123279588
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-5515502182619597164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/rotate/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-5486684498710154310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1579,6 +2750,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-5381209381475805009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/break/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-5374308173202321980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1596,6 +2784,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &-5343445482801410601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/explode/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-5306120320622584838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1612,6 +2817,24 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 0
+--- !u!114 &-5295607854179445484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637231738782037143
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-5291385919126892340
 MonoBehaviour:
@@ -1631,6 +2854,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-5262942031569158473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637233352021831871
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-5252459339458213281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1684,6 +2925,40 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-5201150550101549094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/rotate/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-5196705602338597762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/explode/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-5189445129071101508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1719,6 +2994,77 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-5128360950932730595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Asteroids.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Asteroids.bank
+  SubDir: 
+  lastModified: 637233350835206134
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-5115008287625830699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Asteroids.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Asteroids.bank
+  SubDir: 
+  lastModified: 637231744976421408
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-5071984440594290545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/break/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-5065982189126268918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Asteroids.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Asteroids.bank
+  SubDir: 
+  lastModified: 637231717313344301
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-5057758021503935101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1736,7 +3082,25 @@ MonoBehaviour:
   lastModified: 637229818475908292
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
+--- !u!114 &-5030644364448267172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Player.bank
+  SubDir: 
+  lastModified: 637231715732235618
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-5021270011394991418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1772,6 +3136,41 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-4954225297545001406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/UI.bank
+  SubDir: 
+  lastModified: 637231743768616157
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4884969317131837270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/move/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-4795922829615601075
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1805,7 +3204,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-4717960590412853730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1842,6 +3241,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-4675411301762540568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/explode/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-4668406114065513769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1876,6 +3292,23 @@ MonoBehaviour:
   lastModified: 637227316580780794
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-4616587079197878261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/laser/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
   Exists: 0
 --- !u!114 &-4576553160690553652
 MonoBehaviour:
@@ -1947,6 +3380,76 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-4514275538666574620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637231744976631458
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4508601088955604402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Testing.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Testing.bank
+  SubDir: 
+  lastModified: 637231744977231589
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4496835062873371631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/rotate/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-4470645186145069696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/move/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-4447605059149083084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1999,6 +3502,24 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 0
+--- !u!114 &-4381572561303630633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637231743532637827
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-4378436457690673609
 MonoBehaviour:
@@ -2053,6 +3574,41 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-4353481735896178653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/explode/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-4342656855647178150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Player.bank
+  SubDir: 
+  lastModified: 637233350096231671
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-4325839087920468518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2089,6 +3645,59 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-4295991529753845433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637231671178511315
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4282565881439739179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/healthalarm/health
+  m_EditorClassIdentifier: 
+  Name: health
+  Min: 0
+  Max: 3
+  Default: 3
+  Exists: 0
+--- !u!114 &-4235553663931918279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637231719866448973
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-4225659699143944926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2104,6 +3713,24 @@ MonoBehaviour:
   Path: FMOD/Final/Build/Desktop/UI.bank
   SubDir: 
   lastModified: 637227316580950829
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4210034021303087086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637233349896956077
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -2161,6 +3788,42 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-4073808791785351575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Testing.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Testing.bank
+  SubDir: 
+  lastModified: 637231738783037357
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4048424041815976745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637231744976231376
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-3994208065592169776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2194,6 +3857,41 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 0
+--- !u!114 &-3951791325335469545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/laser/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-3942647094042298300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Testing.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Testing.bank
+  SubDir: 
+  lastModified: 637233350096431722
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-3878548130987591788
 MonoBehaviour:
@@ -2230,6 +3928,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &-3837537684121743764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/laser/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-3814482878110193637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2247,6 +3962,58 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-3777533398985299630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/healthalarm/health
+  m_EditorClassIdentifier: 
+  Name: health
+  Min: 0
+  Max: 3
+  Default: 3
+  Exists: 0
+--- !u!114 &-3770474965284848140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/laser/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-3769345395711608301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637233352022212427
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-3735386090542921498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2297,6 +4064,24 @@ MonoBehaviour:
   Path: FMOD/Final/Build/Desktop/Master.bank
   SubDir: 
   lastModified: 637226640825330665
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-3636872946616236572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637233349898929752
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -2441,6 +4226,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-3412157893043931146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Asteroids.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Asteroids.bank
+  SubDir: 
+  lastModified: 637233352022002380
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-3406600811504111028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2458,6 +4261,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-3374662694913010603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/healthalarm/health
+  m_EditorClassIdentifier: 
+  Name: health
+  Min: 0
+  Max: 3
+  Default: 3
+  Exists: 0
 --- !u!114 &-3226879594941653227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2473,6 +4293,24 @@ MonoBehaviour:
   Path: FMOD/Final/Build/Desktop/Master.bank
   SubDir: 
   lastModified: 637227309968367549
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-3216720832089604969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637231625941288571
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -2510,6 +4348,23 @@ MonoBehaviour:
   lastModified: 637227410517238613
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-3140789525374181389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/laser/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
   Exists: 0
 --- !u!114 &-3079759171200454144
 MonoBehaviour:
@@ -2598,6 +4453,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-2904462975265361288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637231717313554356
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-2891144317545274025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2633,6 +4506,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-2839585838138135259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Asteroids.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Asteroids.bank
+  SubDir: 
+  lastModified: 637231744123459631
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-2835000525316523255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2685,7 +4576,7 @@ MonoBehaviour:
   lastModified: 637229818476108344
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-2787373717711709525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2740,6 +4631,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-2773418190392410444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/rotate/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-2739201652905758218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2780,6 +4688,58 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-2694175015314362118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637233401125925475
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-2672123592289764245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/laser/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-2668834140526764654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/rotate/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-2630979675506108656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2796,6 +4756,42 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 0
+--- !u!114 &-2601608357218254834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Player.bank
+  SubDir: 
+  lastModified: 637233349904122278
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-2594220284855369184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Testing.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Testing.bank
+  SubDir: 
+  lastModified: 637231743533628089
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-2583159473255167236
 MonoBehaviour:
@@ -2814,6 +4810,41 @@ MonoBehaviour:
   lastModified: 637223234716744459
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-2578053420385923629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637231743767435892
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-2565008588096734985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/rotate/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
   Exists: 0
 --- !u!114 &-2562197480344375198
 MonoBehaviour:
@@ -2851,6 +4882,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-2511984796817083187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/rotate/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-2496114506733625590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2868,7 +4916,7 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
---- !u!114 &-2462220985619540162
+--- !u!114 &-2490799782995938074
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2885,6 +4933,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &-2462220985619540162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/break/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-2459733725829808440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2920,7 +4985,24 @@ MonoBehaviour:
   lastModified: 637229818475718254
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
+--- !u!114 &-2440475872230573662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/rotate/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-2435756961840208867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2939,6 +5021,145 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-2431735705337312256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Testing.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Testing.bank
+  SubDir: 
+  lastModified: 637231715732445664
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-2395657219525622487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Asteroids.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Asteroids.bank
+  SubDir: 
+  lastModified: 637233349898159509
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-2291778951766608535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/healthalarm/health
+  m_EditorClassIdentifier: 
+  Name: health
+  Min: 0
+  Max: 3
+  Default: 3
+  Exists: 1
+--- !u!114 &-2289343902236067908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/rotate/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-2263126241134481792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/laser/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &-2233477084242376249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/break/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &-2161780430107161813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Testing.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Testing.bank
+  SubDir: 
+  lastModified: 637231668119162177
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-2130951911495565444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/move/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-2066211200819735758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2956,6 +5177,23 @@ MonoBehaviour:
   lastModified: 637223216652309310
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-2051767431394109801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/break/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
   Exists: 0
 --- !u!114 &-2048032218869645944
 MonoBehaviour:
@@ -3043,6 +5281,24 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 0
+--- !u!114 &-1919471121004225909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/UI.bank
+  SubDir: 
+  lastModified: 637231708095220672
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-1912268940955404862
 MonoBehaviour:
@@ -3165,7 +5421,7 @@ MonoBehaviour:
   Path: snapshot:/Pause
   guid: 9f29643ceabda045a54a40abe1b3c8fd
   Banks:
-  - {fileID: 4930311078166670885}
+  - {fileID: 4430786493392719003}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -3189,6 +5445,24 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 0
+--- !u!114 &-1837110215862438806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Player.bank
+  SubDir: 
+  lastModified: 637231708094750562
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-1801430893972618853
 MonoBehaviour:
@@ -3226,6 +5500,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-1787815417575902051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/explode/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-1767889009862585956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3239,6 +5530,23 @@ MonoBehaviour:
   m_Name: parameter:/rotate/time
   m_EditorClassIdentifier: 
   Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-1754930639445470591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/explode/distance
+  m_EditorClassIdentifier: 
+  Name: distance
   Min: 0
   Max: 1
   Default: 0
@@ -3277,6 +5585,41 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 0
+--- !u!114 &-1730516834879270169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/move/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-1688061527835825513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/UI.bank
+  SubDir: 
+  lastModified: 637231744977421632
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-1686027488627381855
 MonoBehaviour:
@@ -3331,6 +5674,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-1613058420364990280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Testing.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Testing.bank
+  SubDir: 
+  lastModified: 637231671179111467
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-1590215786453113572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3366,6 +5727,128 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-1567317967880458363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/healthalarm/health
+  m_EditorClassIdentifier: 
+  Name: health
+  Min: 0
+  Max: 3
+  Default: 3
+  Exists: 0
+--- !u!114 &-1556568591356675849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/explode/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-1517654353906942724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/break/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-1492257183148470355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637231614173064530
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-1473690247873593953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/explode/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-1350798319174486026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Testing.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Testing.bank
+  SubDir: 
+  lastModified: 637231743768426116
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-1239091861636090978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637233350095441187
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-1205651686189425176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3383,6 +5866,24 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-1154060513176302763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637231708094350471
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-1095018082446243510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3399,6 +5900,24 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 0
+--- !u!114 &-1083912495212564820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637233350095831400
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-1069517718133318694
 MonoBehaviour:
@@ -3452,6 +5971,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-1042806534067281706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637231715731845529
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-996064855455751103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3484,15 +6021,32 @@ MonoBehaviour:
   Path: event:/Asteroid/explode
   guid: ad60f3791a9fbb4a97c6df9540779a21
   Banks:
-  - {fileID: 4130743479379995468}
+  - {fileID: 7038224535300609714}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 3559203444364000216}
+  - {fileID: 3299523149469785808}
   MinDistance: 0
   MaxDistance: 0
   Length: 1200
+--- !u!114 &-914964148435843292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/break/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-900604632613399635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3509,6 +6063,24 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 0
+--- !u!114 &-863335367238481942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Player.bank
+  SubDir: 
+  lastModified: 637231717313954443
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-794046785184511980
 MonoBehaviour:
@@ -3528,6 +6100,40 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-778463858636713625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/healthalarm/health
+  m_EditorClassIdentifier: 
+  Name: health
+  Min: 0
+  Max: 3
+  Default: 3
+  Exists: 0
+--- !u!114 &-740093100846522930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/rotate/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-656122346397581121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3543,6 +6149,41 @@ MonoBehaviour:
   Path: FMOD/Final/Build/Desktop/Player.bank
   SubDir: 
   lastModified: 637227407332265041
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-638188036339602540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/explode/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-632128121899512584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637231744123659676
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -3688,6 +6329,41 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-474084428374801334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/explode/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-423540445705089972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637233444975113133
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-409998190438364400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3704,7 +6380,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-370636281205781965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3808,6 +6484,24 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-253126662809609419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637231743767825979
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-241711568851209104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3861,6 +6555,41 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-206757384512544384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Player.bank
+  SubDir: 
+  lastModified: 637231648779949685
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-168309272230620394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/explode/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-165985110307831729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3878,6 +6607,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-119620347892273536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/move/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-118848962882449380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/move/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-96989947696007221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3950,6 +6713,59 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-39338645095926263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Asteroids.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Asteroids.bank
+  SubDir: 
+  lastModified: 637231648779339541
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-35988319651658318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637231715731449824
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-3063112037575788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/explode/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3964,12 +6780,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 3058972869271711463}
-  - {fileID: 2168658786828375698}
-  - {fileID: 4130743479379995468}
-  - {fileID: 4930311078166670885}
-  - {fileID: -2442317788182155020}
-  - {fileID: -5057758021503935101}
-  - {fileID: -2793431226222563526}
+  - {fileID: -423540445705089972}
+  - {fileID: 7038224535300609714}
+  - {fileID: 4430786493392719003}
+  - {fileID: 4640323934982218668}
+  - {fileID: 8020549540010692400}
+  - {fileID: 7434461587778638085}
   EditorEvents:
   - {fileID: -7218834680228181124}
   - {fileID: -6971414889494068884}
@@ -3990,13 +6806,31 @@ MonoBehaviour:
   - {fileID: 6249060787403427846}
   - {fileID: 1639785986564658902}
   - {fileID: 1384170371619670246}
+  - {fileID: 981106166242693238}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 4930311078166670885}
+  - {fileID: 4430786493392719003}
   StringsBanks:
   - {fileID: 3058972869271711463}
-  stringsBankWriteTime: 637229818475343925
+  stringsBankWriteTime: 637233444975533226
   cacheVersion: 3
+--- !u!114 &6917159309665059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/laser/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &25674952142815456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4050,6 +6884,59 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &94096179308003398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/UI.bank
+  SubDir: 
+  lastModified: 637231717636998863
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &101028381341384387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/laser/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &126504126583225469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637233350835022936
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &127058145085556558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4085,6 +6972,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &152947073180018499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/healthalarm/health
+  m_EditorClassIdentifier: 
+  Name: health
+  Min: 0
+  Max: 3
+  Default: 3
+  Exists: 0
 --- !u!114 &158927638800856698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4103,6 +7007,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &169569648145881887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/healthalarm/health
+  m_EditorClassIdentifier: 
+  Name: health
+  Min: 0
+  Max: 3
+  Default: 3
+  Exists: 1
 --- !u!114 &176810051675848784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4174,6 +7095,24 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &243222323976726853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Testing.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Testing.bank
+  SubDir: 
+  lastModified: 637231674907259122
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &316127802927055740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4187,6 +7126,23 @@ MonoBehaviour:
   m_Name: parameter:/move/Speed
   m_EditorClassIdentifier: 
   Name: Speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &341585359253369725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/rotate/time
+  m_EditorClassIdentifier: 
+  Name: time
   Min: 0
   Max: 1
   Default: 0
@@ -4227,6 +7183,41 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &373703744634771593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637231674906278911
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &377963748251298290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/healthalarm/health
+  m_EditorClassIdentifier: 
+  Name: health
+  Min: 0
+  Max: 3
+  Default: 3
+  Exists: 0
 --- !u!114 &559413873810153111
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4263,6 +7254,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &681116900408658853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/rotate/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &710394671269349620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4279,6 +7287,23 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 0
+--- !u!114 &721873409541137809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/healthalarm/health
+  m_EditorClassIdentifier: 
+  Name: health
+  Min: 0
+  Max: 3
+  Default: 3
   Exists: 0
 --- !u!114 &729878358796961089
 MonoBehaviour:
@@ -4331,7 +7356,7 @@ MonoBehaviour:
   Path: event:/UI/switchlimit
   guid: dd0bb8c55e0a364ba5841a3b5a7de64a
   Banks:
-  - {fileID: -2793431226222563526}
+  - {fileID: 7434461587778638085}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -4339,6 +7364,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 433
+--- !u!114 &812863907507832386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/break/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &868664097386338608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4391,6 +7433,41 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &931598105625413664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Testing.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Testing.bank
+  SubDir: 
+  lastModified: 637233349904312402
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &935915465846183578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/rotate/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &948172606765695994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4409,6 +7486,29 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &981106166242693238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/scroll
+  m_EditorClassIdentifier: 
+  Path: event:/UI/scroll
+  guid: 8568ca2cff0915478bbd4ce7492a18a8
+  Banks:
+  - {fileID: 7434461587778638085}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 74
 --- !u!114 &1006907823374657946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4424,6 +7524,41 @@ MonoBehaviour:
   Path: FMOD/Final/Build/Desktop/Player.bank
   SubDir: 
   lastModified: 637227382305407376
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &1007829694096846216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/explode/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &1023160385147453485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Asteroids.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Asteroids.bank
+  SubDir: 
+  lastModified: 637231717636018595
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -4535,6 +7670,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &1182794184588656766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Player.bank
+  SubDir: 
+  lastModified: 637231652472181025
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &1228694183168267133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4553,6 +7706,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &1270664686737064886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/UI.bank
+  SubDir: 
+  lastModified: 637231719867679250
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &1346394143713122670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4604,14 +7775,14 @@ MonoBehaviour:
   Path: event:/Ambience/ambience
   guid: f3bf2e419a79c4468f0f473bbcfbf184
   Banks:
-  - {fileID: 2168658786828375698}
+  - {fileID: -423540445705089972}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 267423
+  Length: 294846
 --- !u!114 &1386003836181452793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4627,6 +7798,24 @@ MonoBehaviour:
   Path: FMOD/Final/Build/Desktop/Player.bank
   SubDir: 
   lastModified: 637224726606642967
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &1394638225574919980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637231614174990013
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -4717,6 +7906,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &1631599827122815925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/healthalarm/health
+  m_EditorClassIdentifier: 
+  Name: health
+  Min: 0
+  Max: 3
+  Default: 3
+  Exists: 0
 --- !u!114 &1639785986564658902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4732,15 +7938,33 @@ MonoBehaviour:
   Path: event:/Ambience/healthalarm
   guid: 271fb297a3289a43bef44f018b17ae58
   Banks:
-  - {fileID: 2168658786828375698}
+  - {fileID: -423540445705089972}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 3065942491887785265}
+  - {fileID: -2291778951766608535}
   MinDistance: 0
   MaxDistance: 0
   Length: 3250
+--- !u!114 &1644745349304434809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637231675257161611
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &1655044964695008832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4752,6 +7976,41 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/laser/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &1674509206838632545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Asteroids.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Asteroids.bank
+  SubDir: 
+  lastModified: 637231743532827878
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &1678104187800784556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/rotate/time
   m_EditorClassIdentifier: 
   Name: time
   Min: 0
@@ -4842,6 +8101,77 @@ MonoBehaviour:
   Path: FMOD/Final/Build/Desktop/UI.bank
   SubDir: 
   lastModified: 637223225286309296
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &1897916417089206745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Player.bank
+  SubDir: 
+  lastModified: 637233401126745654
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &1901677488855275171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/explode/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &1906414884532847605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637231648779549600
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &1907634173910059803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Player.bank
+  SubDir: 
+  lastModified: 637231671178911420
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -4940,6 +8270,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 999
+--- !u!114 &2092659425281696687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637231717635838550
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &2108288729957930671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4955,6 +8303,24 @@ MonoBehaviour:
   Path: FMOD/Final/Build/Desktop/UI.bank
   SubDir: 
   lastModified: 637213507300984330
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &2118193521968195756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/UI.bank
+  SubDir: 
+  lastModified: 637231743533818128
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -4975,7 +8341,25 @@ MonoBehaviour:
   lastModified: 637229818474903827
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
+--- !u!114 &2234561576462621923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637231625941848705
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &2296752000238971201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5026,6 +8410,41 @@ MonoBehaviour:
   Path: FMOD/Final/Build/Desktop/Asteroids.bank
   SubDir: 
   lastModified: 637224853596325866
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &2363697906347922497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/explode/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &2407889887274925003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637231708093950378
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -5135,6 +8554,41 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &2641417333158173369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/laser/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &2729294544263939754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Player.bank
+  SubDir: 
+  lastModified: 637231614179581200
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &2793751450044215119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5223,6 +8677,24 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &2864809139720102894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Asteroids.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Asteroids.bank
+  SubDir: 
+  lastModified: 637231625941638648
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &2865412405486044799
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5239,6 +8711,40 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 0
+--- !u!114 &2877304828184845930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/move/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &3013812766198422391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/healthalarm/health
+  m_EditorClassIdentifier: 
+  Name: health
+  Min: 0
+  Max: 3
+  Default: 3
   Exists: 0
 --- !u!114 &3023675730129673005
 MonoBehaviour:
@@ -5271,12 +8777,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMOD/Final/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637229818475343925
+  lastModified: 637233444975533226
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 2168
+    Value: 2204
   Exists: 1
+--- !u!114 &3060237010701113851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Asteroids.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Asteroids.bank
+  SubDir: 
+  lastModified: 637231668118361996
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &3065942491887785265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5293,7 +8817,7 @@ MonoBehaviour:
   Min: 0
   Max: 3
   Default: 3
-  Exists: 1
+  Exists: 0
 --- !u!114 &3107161450821256941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5347,6 +8871,23 @@ MonoBehaviour:
   lastModified: 637223053928392986
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &3179723457373317486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/break/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
   Exists: 0
 --- !u!114 &3185895250732256433
 MonoBehaviour:
@@ -5435,6 +8976,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &3254667084974477131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/move/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &3258232566031287495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5450,7 +9008,7 @@ MonoBehaviour:
   Path: event:/Player/missleslaunch
   guid: b9bbd1cb1071f544a13b9ff704102510
   Banks:
-  - {fileID: -2442317788182155020}
+  - {fileID: 4640323934982218668}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -5493,6 +9051,40 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &3275922920887305607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/healthalarm/health
+  m_EditorClassIdentifier: 
+  Name: health
+  Min: 0
+  Max: 3
+  Default: 3
+  Exists: 0
+--- !u!114 &3299523149469785808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/explode/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &3311682406082084050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5634,6 +9226,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &3466137462973300926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/break/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &3479434093570915258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5703,7 +9312,25 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
+--- !u!114 &3572872999403458743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637231668118181951
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &3580877457259302832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5721,6 +9348,23 @@ MonoBehaviour:
   lastModified: 637226640389298667
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &3584578615764976543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/move/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  Min: 0
+  Max: 1
+  Default: 0
   Exists: 0
 --- !u!114 &3600790757823286654
 MonoBehaviour:
@@ -5789,15 +9433,33 @@ MonoBehaviour:
   Path: event:/Player/laser
   guid: de657d3bf6dba3488abecca1d481777e
   Banks:
-  - {fileID: -2442317788182155020}
+  - {fileID: 4640323934982218668}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -409998190438364400}
+  - {fileID: -7585378560180409184}
   MinDistance: 0
   MaxDistance: 0
   Length: 21088
+--- !u!114 &3711311727526572296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Asteroids.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Asteroids.bank
+  SubDir: 
+  lastModified: 637231743767625932
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &3713947561708515972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5902,6 +9564,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &3854052870014522322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/laser/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &3868854739107793152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/explode/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &3869707980960206002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5918,6 +9614,24 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 0
+--- !u!114 &3884300725989010036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637231652471780925
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &3923171542389363101
 MonoBehaviour:
@@ -6024,6 +9738,24 @@ MonoBehaviour:
   lastModified: 637229818475103865
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &4166691560069381488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Player.bank
+  SubDir: 
+  lastModified: 637233352022604711
+  LoadResult: 0
+  FileSizes: []
   Exists: 1
 --- !u!114 &4204827307999392270
 MonoBehaviour:
@@ -6114,6 +9846,59 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &4381759972762119385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Asteroids.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Asteroids.bank
+  SubDir: 
+  lastModified: 637233350095621226
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &4430786493392719003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637233444975513222
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &4454601324133411951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/move/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &4501956420234246756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6200,6 +9985,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &4590118155394992247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/explode/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &4634632702214115213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6218,6 +10020,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &4640323934982218668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Player.bank
+  SubDir: 
+  lastModified: 637233444975923313
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &4656123062518712257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6357,6 +10177,24 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &4884869268855581375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Player.bank
+  SubDir: 
+  lastModified: 637231668118972136
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &4930311078166670885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6374,7 +10212,25 @@ MonoBehaviour:
   lastModified: 637229818475323919
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
+--- !u!114 &4931271792259688866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637231717313154256
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &4943639523662340549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6411,6 +10267,75 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &4976896298727328830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/healthalarm/health
+  m_EditorClassIdentifier: 
+  Name: health
+  Min: 0
+  Max: 3
+  Default: 3
+  Exists: 0
+--- !u!114 &4978242429794047971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/rotate/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &4987873492638572242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/break/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &5024175610306772251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Testing.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Testing.bank
+  SubDir: 
+  lastModified: 637231675257761746
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &5158928381909566635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6447,6 +10372,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &5189695914041612590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Asteroids.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Asteroids.bank
+  SubDir: 
+  lastModified: 637231715731635398
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &5225221310418202150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6463,6 +10406,24 @@ MonoBehaviour:
   Min: 0
   Max: 3
   Default: 3
+  Exists: 0
+--- !u!114 &5266945305623138884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/UI.bank
+  SubDir: 
+  lastModified: 637231717314324526
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &5290834687228537742
 MonoBehaviour:
@@ -6518,6 +10479,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &5382752932603338717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/explode/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &5401019045358560450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6571,6 +10549,40 @@ MonoBehaviour:
   lastModified: 637223053927623483
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &5491995124350677006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/move/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &5502158379505799032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/healthalarm/health
+  m_EditorClassIdentifier: 
+  Name: health
+  Min: 0
+  Max: 3
+  Default: 3
   Exists: 0
 --- !u!114 &5515145668148912354
 MonoBehaviour:
@@ -6679,6 +10691,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &5801260171028045240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Asteroids.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Asteroids.bank
+  SubDir: 
+  lastModified: 637231671178301263
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &5804804127011169739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6732,6 +10762,41 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &5884129987174245074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/break/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &5890393667800561775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637231668118572050
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &5933968986684999894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6750,6 +10815,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &5940786510951671886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/move/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &5957661493682279887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6822,6 +10904,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &6044910650335516012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Testing.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Testing.bank
+  SubDir: 
+  lastModified: 637233352022794762
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &6047221706380121806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6840,6 +10940,59 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &6057523349475429924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Testing.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Testing.bank
+  SubDir: 
+  lastModified: 637231614179831256
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &6176217148126530683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/explode/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &6195735138685066289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Testing.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Testing.bank
+  SubDir: 
+  lastModified: 637231719867489202
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &6219114121181562221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6875,6 +11028,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &6238478769221514257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/rotate/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &6249060787403427846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6890,7 +11060,7 @@ MonoBehaviour:
   Path: event:/UI/offpause
   guid: e87b2a461342a944ae4c09dc312693c4
   Banks:
-  - {fileID: -2793431226222563526}
+  - {fileID: 7434461587778638085}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -6931,7 +11101,7 @@ MonoBehaviour:
   Path: event:/Player/misslesfly
   guid: 17e527172541eb44a91c4cfac13654cd
   Banks:
-  - {fileID: -2442317788182155020}
+  - {fileID: 4640323934982218668}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -6971,7 +11141,7 @@ MonoBehaviour:
   Path: event:/UI/switch
   guid: e701095e4d055540ae1e2ecb1f257b04
   Banks:
-  - {fileID: -2793431226222563526}
+  - {fileID: 7434461587778638085}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -6979,6 +11149,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 433
+--- !u!114 &6329878504255259023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Asteroids.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Asteroids.bank
+  SubDir: 
+  lastModified: 637233401126105515
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &6330224803552586428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6997,6 +11185,92 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &6336896568980300956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Testing.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Testing.bank
+  SubDir: 
+  lastModified: 637231625942428824
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &6361242609932121526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/break/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &6373363980138329156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/healthalarm/health
+  m_EditorClassIdentifier: 
+  Name: health
+  Min: 0
+  Max: 3
+  Default: 3
+  Exists: 0
+--- !u!114 &6378633484260680171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/move/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &6387237627707976487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/move/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &6425015172532518363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7013,6 +11287,76 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 0
+--- !u!114 &6509378010301604457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/UI.bank
+  SubDir: 
+  lastModified: 637231744124449857
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &6533579961860393092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/laser/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &6562523109056214961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/explode/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &6565097201513637266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/UI.bank
+  SubDir: 
+  lastModified: 637231675257951794
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &6580305893874497337
 MonoBehaviour:
@@ -7031,6 +11375,23 @@ MonoBehaviour:
   lastModified: 637227339058437852
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &6624028723093374455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/laser/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
   Exists: 0
 --- !u!114 &6627182354985399562
 MonoBehaviour:
@@ -7067,6 +11428,24 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &6640665565315226707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637231719866849061
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &6711439118421601184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7138,6 +11517,59 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &6845907756416544251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637233401126335570
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &6854099244537923522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/UI.bank
+  SubDir: 
+  lastModified: 637231625943178992
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &6864653578032716684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/explode/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &6902507965176921510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7155,6 +11587,23 @@ MonoBehaviour:
   lastModified: 637223225285959218
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &6915631059600988605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/rotate/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
   Exists: 0
 --- !u!114 &6922817719261536442
 MonoBehaviour:
@@ -7174,6 +11623,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &6927889756996192461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/move/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &6961602808764833175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7192,6 +11658,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &7038224535300609714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Asteroids.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Asteroids.bank
+  SubDir: 
+  lastModified: 637233444975303168
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &7038648765332293954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7227,6 +11711,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &7065242368683411063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/rotate/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &7090562527610811758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7263,6 +11764,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &7132234706597484533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/UI.bank
+  SubDir: 
+  lastModified: 637233350096731988
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &7147198171665091409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7281,6 +11800,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &7189985881685804919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/move/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &7212166177954822104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7298,6 +11834,24 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &7240924336178154657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Player.bank
+  SubDir: 
+  lastModified: 637231719867259147
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &7355583613770293947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7369,6 +11923,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &7434461587778638085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/UI.bank
+  SubDir: 
+  lastModified: 637233444976463434
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &7455335452322210687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7402,6 +11974,24 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 0
+--- !u!114 &7457631680442916031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Player.bank
+  SubDir: 
+  lastModified: 637231717636618725
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &7458267532271807544
 MonoBehaviour:
@@ -7510,6 +12100,59 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &7620094367320544410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Player.bank
+  SubDir: 
+  lastModified: 637231744124059766
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &7636403298164605793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/move/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &7650802701899490494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Asteroids.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Asteroids.bank
+  SubDir: 
+  lastModified: 637231674906458960
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &7720133195580909487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7527,6 +12170,24 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &7722006615277022152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/UI.bank
+  SubDir: 
+  lastModified: 637233349905442859
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &7731695442212257857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7542,7 +12203,7 @@ MonoBehaviour:
   Path: event:/Player/shoot
   guid: 202837e9b45ab04fb9fc1f12ee4de4ac
   Banks:
-  - {fileID: -2442317788182155020}
+  - {fileID: 4640323934982218668}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -7565,6 +12226,24 @@ MonoBehaviour:
   Path: FMOD/Final/Build/Desktop/Asteroids.bank
   SubDir: 
   lastModified: 637229190341309692
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &7777010234258739046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Player.bank
+  SubDir: 
+  lastModified: 637231744977031548
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -7603,7 +12282,59 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &7882789961128535457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Player.bank
+  SubDir: 
+  lastModified: 637231738782827305
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &7900613482207079411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/move/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &7924935390665163594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/laser/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &7934448712334669773
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7637,6 +12368,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &7991083038723203352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/healthalarm/health
+  m_EditorClassIdentifier: 
+  Name: health
+  Min: 0
+  Max: 3
+  Default: 3
+  Exists: 0
 --- !u!114 &8001692409636766127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7653,6 +12401,77 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 0
+--- !u!114 &8007184036424909337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637231652471380848
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &8020549540010692400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Testing.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Testing.bank
+  SubDir: 
+  lastModified: 637233444976263388
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &8090279278365644168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/healthalarm/health
+  m_EditorClassIdentifier: 
+  Name: health
+  Min: 0
+  Max: 3
+  Default: 3
+  Exists: 0
+--- !u!114 &8111911206758875347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/UI.bank
+  SubDir: 
+  lastModified: 637231715733005791
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &8119658694484861592
 MonoBehaviour:
@@ -7708,6 +12527,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &8207715739788012968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/break/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &8221725860088958154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7743,6 +12579,24 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &8263476189964793513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637231743533027952
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &8305100351441921105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7758,6 +12612,24 @@ MonoBehaviour:
   Path: FMOD/Final/Build/Desktop/Testing.bank
   SubDir: 
   lastModified: 637229189732036029
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &8354454224679712658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Asteroids.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Asteroids.bank
+  SubDir: 
+  lastModified: 637231708094130427
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -7869,6 +12741,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &8615566576193654346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/rotate/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &8666326754315558660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7904,6 +12793,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &8720524896657730554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/healthalarm/health
+  m_EditorClassIdentifier: 
+  Name: health
+  Min: 0
+  Max: 3
+  Default: 3
+  Exists: 0
 --- !u!114 &8721536409603616030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7919,7 +12825,7 @@ MonoBehaviour:
   Path: event:/Player/die
   guid: 95e8863dffd91b4b9608745818a358f3
   Banks:
-  - {fileID: -2442317788182155020}
+  - {fileID: 4640323934982218668}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -7927,6 +12833,42 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 7636
+--- !u!114 &8727409484752017119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/UI.bank
+  SubDir: 
+  lastModified: 637231671179301508
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &8742718631517592396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Asteroids.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Asteroids.bank
+  SubDir: 
+  lastModified: 637231675256951529
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &8744376397057408787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8016,6 +12958,59 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &8825444133024044401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/UI.bank
+  SubDir: 
+  lastModified: 637231652472901178
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &8830267597965967005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/UI.bank
+  SubDir: 
+  lastModified: 637233401127145747
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &8856625465980127598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/explode/distance
+  m_EditorClassIdentifier: 
+  Name: distance
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &8873883377090444066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8052,6 +13047,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &8905605180215119579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/move/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &8950815159699891842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8086,6 +13098,41 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &9007566194650439574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Testing.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final/Build/Desktop/Testing.bank
+  SubDir: 
+  lastModified: 637231708095040626
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &9024430785665202990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/rotate/time
+  m_EditorClassIdentifier: 
+  Name: time
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &9054836752772445634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8117,6 +13164,23 @@ MonoBehaviour:
   m_Name: parameter:/move/Speed
   m_EditorClassIdentifier: 
   Name: Speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &9135261275789729715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/break/distance
+  m_EditorClassIdentifier: 
+  Name: distance
   Min: 0
   Max: 1
   Default: 0
