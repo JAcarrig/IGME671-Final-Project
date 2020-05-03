@@ -195,6 +195,9 @@
 		<property name="length">
 			<value>236.32954340970102</value>
 		</property>
+		<property name="pitch">
+			<value>-5</value>
+		</property>
 		<property name="looping">
 			<value>true</value>
 		</property>
@@ -313,15 +316,15 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-2.18987083</value>
+			<value>6</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{f904bd5d-b30e-40e7-91df-0f759d6acb30}">
 		<property name="position">
-			<value>0.99576271186440679</value>
+			<value>1</value>
 		</property>
 		<property name="value">
-			<value>2.20000005</value>
+			<value>14</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{c509830e-09ab-48af-8d27-6f596043611d}">
@@ -329,15 +332,15 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-42.5</value>
+			<value>-80</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{6f61f535-d32b-4957-9314-2b9aa52d961b}">
 		<property name="position">
-			<value>0.96999999999999997</value>
+			<value>1</value>
 		</property>
 		<property name="value">
-			<value>9</value>
+			<value>-6</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{469bb6db-8b75-4ef9-940f-c500ac3f3eac}">
@@ -353,7 +356,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-26.2142868</value>
+			<value>-80</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{7c6b8fc9-e2c9-4512-b9da-19d9b553b71f}">
@@ -361,7 +364,7 @@
 			<value>0.02</value>
 		</property>
 		<property name="value">
-			<value>-18.6499996</value>
+			<value>-13</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{cd1b041a-e543-409e-af29-744990b1dbb3}">
@@ -369,7 +372,7 @@
 			<value>0.99671592775041051</value>
 		</property>
 		<property name="value">
-			<value>-4.64999962</value>
+			<value>0</value>
 		</property>
 	</object>
 </objects>

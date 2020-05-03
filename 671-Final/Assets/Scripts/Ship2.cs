@@ -251,11 +251,12 @@ public class Ship2 : MonoBehaviour {
         //Debug.Log(points);
         if (Input.GetKeyDown(KeyCode.C) == true /*&& points.GetComponent<Scores>().score >= 500*/)
         {
+            FMODUnity.RuntimeManager.PlayOneShot(Launch);
             points.GetComponent<Scores>().score -= 500;//500
             for (int i = 0; i < 6; i++)
             {
-                //launch.start();
-                StartCoroutine(player());
+                
+                //StartCoroutine(player());
                 GameObject newMissle = Instantiate(missle);
 
 

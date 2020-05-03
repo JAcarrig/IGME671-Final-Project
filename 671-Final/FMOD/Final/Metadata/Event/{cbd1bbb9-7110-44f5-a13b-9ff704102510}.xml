@@ -89,8 +89,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{78a0afe6-8a4e-445e-a8f4-fd6536ea1af8}" />
 	<object class="SoundScatterer" id="{cb5209ab-e441-41a9-8841-4f15fc39dc4d}">
-		<property name="length">
-			<value>0.050000000000000003</value>
+		<property name="totalSounds">
+			<value>6</value>
+		</property>
+		<property name="minimumTimeBetweenSounds">
+			<value>94</value>
+		</property>
+		<property name="maximumTimeBetweenSounds">
+			<value>94</value>
 		</property>
 		<property name="minimumScatterDistance">
 			<value>0</value>
@@ -106,9 +112,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{3e811b3c-9b1b-4974-8c2d-1db92a30f5c5}">
-		<property name="volume">
-			<value>-9</value>
-		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
